@@ -6,7 +6,7 @@
 		.breakpoints({
 			desktop: '(min-width: 737px)',
 			tablet: '(min-width: 737px) and (max-width: 1200px)',
-			mobile: '(max-width: 736px)'
+			mobile: '(max-width: 1440px)'
 		})
 		.viewport({
 			breakpoints: {
@@ -49,7 +49,7 @@
 				var x = parseInt($('.wrapper').first().css('padding-top')) - 15;
 
 				$('#nav a, .scrolly').scrolly({
-					speed: 1000,
+					speed: 500,
 					offset: x
 				});
 

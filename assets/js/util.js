@@ -436,7 +436,7 @@
 
 					$this.find('input[type=text],input[type=password],textarea')
 						.each(function(event) {
-
+		//send message onSubmit func
 							var i = $(this);
 
 							if (i.attr('name').match(/-polyfill-field$/))
